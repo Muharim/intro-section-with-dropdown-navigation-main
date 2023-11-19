@@ -91,7 +91,7 @@ body {
     display: block;
 }
 
-.canvas .upC, .upF {
+.canvas .upC, .canvas .upF {
     display: none;
 }
 
@@ -294,20 +294,12 @@ body {
     }
 
     .downC,
-    .downF,
-    .downCM,
-    .downFM {
+    .downF{
         display: block;
     }
 
     .upC,
-    .upF,
-    .upCM,
-    .upFM {
-        display: none;
-    }
-
-    .upCM{
+    .upF{
         display: none;
     }
 

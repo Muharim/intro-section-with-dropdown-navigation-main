@@ -2,8 +2,8 @@
       const m = isMobile ? 'M' : '';
       const dropdown = document.getElementById('featuresContent'+ m);
       dropdown.classList.toggle("show");
-      const upFIcon = document.querySelector('.upF' + m);
-      const downFIcon = document.querySelector('.downF' + m);
+      const upFIcon = document.querySelector('.upF');
+      const downFIcon = document.querySelector('.downF');
       upFIcon.classList.toggle('visible1');
       downFIcon.classList.toggle('visible');
     }
@@ -12,8 +12,8 @@
       const m = isMobile ? 'M' : '';
       const dropdown = document.getElementById('companyContent'+ m);
       dropdown.classList.toggle("show");
-      const upCIcon = document.querySelector('.upC' + m);
-      const downCIcon = document.querySelector('.downC' + m);
+      const upCIcon = document.querySelector('.upC');
+      const downCIcon = document.querySelector('.downC');
       upCIcon.classList.toggle('visible1');
       downCIcon.classList.toggle('visible');
     }
@@ -26,7 +26,7 @@
           dropdown.classList.remove('show');
           const upFIcon = document.querySelector('.upF');
           const downFIcon = document.querySelector('.downF');
-          upFIcon.classList.remove('visible');
+          upFIcon.classList.remove('visible1');
           downFIcon.classList.add('visible');
         }
       }
@@ -37,7 +37,7 @@
           dropdown.classList.remove('show');
           const upCIcon = document.querySelector('.upC');
           const downCIcon = document.querySelector('.downC');
-          upCIcon.classList.remove('visible');
+          upCIcon.classList.remove('visible1');
           downCIcon.classList.add('visible');
         }
       }
